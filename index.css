@@ -39,13 +39,17 @@ button {
 }
 
 #increment-btn {
-    background: #191970;
+    background: #26282A;
 }
 
 #save-btn {
-    background: #008000;
+    background: #0000CD;
 }
 
 #undo-btn {
     background: #B22222;
+}
+
+#reset-btn {
+    background: #2F4F4F;
 }

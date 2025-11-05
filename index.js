@@ -38,3 +38,13 @@ function undo () {
         totalEl.textContent = "Total: " + total;
    }
 }
+
+function globalReset() {
+    // Clear all saved values
+    saves = []; // resets the history
+    saveEl.textContent = ""; // clears the display
+    total = 0; // reset the running total
+    totalEl.textContent = "Total: " + total;
+    count = 0; // reset the current increment counter
+    countEl.textContent = 0;
+}
