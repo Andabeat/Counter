@@ -43,6 +43,9 @@ button {
 }
 
 #save-btn {
-    background: #FF4500;
+    background: #008000;
 }
 
+#undo-btn {
+    background: #B22222;
+}
